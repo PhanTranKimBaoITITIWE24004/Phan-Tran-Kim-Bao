@@ -7,11 +7,11 @@ The project was created as part of **coursework at Ho Chi Minh City Internationa
 ## Technologies Used
 
 * HTML
-* Basic CSS (if applicable)
+* CSS
+* JavaScript
+* Java Server Page
 
 ## Purpose
-
-The purpose of this project is to:
 
 * Build a personal curriculum vitae webpage
 * Practice HTML structure and webpage layout
