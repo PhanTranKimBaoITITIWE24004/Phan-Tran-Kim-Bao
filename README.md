@@ -1,24 +1,142 @@
-# Personal CV Webpage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phan Trần Kim Bảo – COMPUTER SCIENCE UNDERGRATED STUDENT</title>
 
-This repository contains a **personal CV webpage** developed by **Phan Tran Kim Bao** using **HTML**.
+  <meta name="description" content="CV of Phan Trần Kim Bảo" />
+  <meta name="keywords" content="COMPUTER SCIENCE UNDERGRATED STUDENT" />
+  <meta name="author" content="Phan Trần Kim Bảo" />
 
-The project was created as part of **coursework at Ho Chi Minh City International University (HCMIU)** for practicing basic web development and webpage structure.
+  <meta property="og:title" content="CV OF Phan Trần Kim Bảo" />
+  <meta property="og:description" content="Personal CV of Phan Trần Kim Bảo, COMPUTER SCIENCE UNDERGRATED STUDENT" />
+  <meta property="og:url" content="https://github.com/PhanTranKimBaoITITIWE24004" />
+  <meta property="og:image" content="c:\Users\Lenovo\Downloads\image.jpg" />
 
-## Technologies Used
+  <link rel="icon" href="https://fav.farm/💼" type="image/x-icon" />
 
-* HTML
-* CSS
-* JavaScript
-* Java Server Page
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif, serif;
+      color: #222;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 2rem;
+    }
+    .cv-wrapper {
+      max-width: 750px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 2.5rem 3rem;
+    }
+    hr.top-line {
+      border: none;
+      border-top: 2px solid #222;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.25rem;
+    }
+    .job-title {
+      color: #4caf50;
+      font-style: italic;
+      margin: 0 0 1rem;
+    }
+    address {
+      font-style: normal;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+    section {
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      color: #4caf50;
+      font-size: 1rem;
+      margin: 0 0 0.4rem;
+      font-weight: normal;
+      font-style: italic;
+    }
+    h3 {
+      color: #1a73e8;
+      font-size: 1rem;
+      margin: 0.6rem 0 0.1rem;
+      font-weight: normal;
+    }
+    p, li {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin: 0.2rem 0;
+    }
+    ul {
+      padding-left: 1.2rem;
+      margin: 0.3rem 0;
+    }
+    .skills-text {
+      margin: 0;
+    }
+    .online-links a {
+      color: #1a73e8;
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+    .online-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main class="cv-wrapper">
+    <hr class="top-line" />
 
-## Purpose
+    <header>
+      <h1>Phan Trần Kim Bảo</h1>
+      <p class="job-title">COMPUTER SCIENCE UNDERGRATED STUDENT</p>
+      <address>
+        46 5F Street<br />
+        Ho Chi Minh city, ST 12345<br />
+        (+84) 0933468288<br />
+        <a href="mailto:kimbao0405@gmail.com">kimbao0405@gmail.com</a>
+      </address>
+    </header>
 
-* Build a personal curriculum vitae webpage
-* Practice HTML structure and webpage layout
-* Present personal academic and professional information in web format
+    <section aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <p class="skills-text">HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation</p>
+    </section>
 
-## Author
+    <section aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <article>
+        <h3>THPT Hung Vuong, District 5 – High School Diploma</h3>
+        <p><time>September 2021</time> to <time>may 2024</time></p>
+        <p>- Had a Turn-base game project with team in university</p>
+      </article>
+    </section>
 
-**Phan Tran Kim Bao**
-Computer Science Student
-Ho Chi Minh City International University (HCMIU)
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+
+      <article>
+        <h3>Thay Dang English Center, District Tan Binh – Teacher and Receptionist</h3>
+        <p><time>July 2024</time> to <time>February 2026</time></p>
+        <ul>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+          <li>List of achievements</li>
+        </ul>
+        <p>Skills: Communication, teaching, time-management</p>
+      </article>
+
+    <section aria-labelledby="online-heading">
+      <h2 id="online-heading">Across the Internet</h2>
+      <p class="online-links">
+        <a href="https://github.com/PhanTranKimBaoITITIWE24004" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
