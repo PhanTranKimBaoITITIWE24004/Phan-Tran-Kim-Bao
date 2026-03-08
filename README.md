@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -137,6 +136,3 @@
         <a href="https://github.com/PhanTranKimBaoITITIWE24004" target="_blank" rel="noopener">GitHub</a>
       </p>
     </section>
-  </main>
-</body>
-</html>
